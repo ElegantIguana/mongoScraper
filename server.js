@@ -44,7 +44,7 @@ app.get("/", function (req, res) {
 // GET ROUTE TO SCRAPE WEBSITE
 app.get("/scrape", function (req, res) {
     // First, we grab the body of the html with request
-    axios.get("https://www.developer-tech.com/news/").then(function (response) {
+    axios.get("https://www.reddit.com/r/gadgets/").then(function (response) {
         // Load into cheerio and save it to $ for a shorthand selector
         var $ = cheerio.load(response.data);
 
@@ -191,6 +191,6 @@ app.post("/deleteNote/:id", function (req, res) {
 
 // Start the Server
 app.listen(PORT, function () {
-    console.log("\n==> 🌎  Listening on port %s." +
+    console.log("\n==> App listening on port %s." +
         "Visit http://localhost:%s/ in your browser.", PORT, PORT);
 });

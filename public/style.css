@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bookman', sans-serif;
     background-color: rgba(250, 250, 250, 1);
     color: #4d5256;
 }
@@ -17,21 +17,22 @@ body {
 }
 
 .jumbotron h1 {
+    text-align: center;
     font-size: 65px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #e7283a;
+    color: #e7289e;
 }
 
 .jumbotron p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bookman', sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .jumbotron p a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bookman', sans-serif;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -46,7 +47,7 @@ body {
 /*CONTENT*/
 
 h1 {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-size: 40px;
     margin: 0;
@@ -56,6 +57,7 @@ h1 {
 }
 
 hr {
+    text-align: left;
     background-color: #6dd3d0;
     height: 2px;
     max-width: 100px;
@@ -131,7 +133,7 @@ article .text p a {
 }
 
 .currentNote button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bookman', sans-serif;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;

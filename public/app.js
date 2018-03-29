@@ -6,10 +6,10 @@ $(document).ready(function () {
         for (var i = 0; i < data.length; i++) {
             // Display the apropos information on the page
             $("#articles").append("<article class='row' data-id='" + data[i]._id + "'>" +
-                "<div class='col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 images'><img src='https://www.developer-tech.com" + data[i].thumbnail + "'></div>" +
+                "<div class='col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 images'><img src='https://www.reddit.com/r/gadgets/" + data[i].thumbnail + "'></div>" +
                 "<div class='col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 text'><h4>" + data[i].title + "</h4>" +
                 "<p>" + data[i].summary +
-                "<a href='https://www.developer-tech.com" + data[i].link + "' target='_blank'>Read More</a><br></p></div>" +
+                "<a href='https://www.reddit.com/r/gadgets/" + data[i].link + "' target='_blank'>Read More</a><br></p></div>" +
                 "</article>");
         }
     });
